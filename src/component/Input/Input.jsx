@@ -5,8 +5,8 @@ const Input = ({addTodo}) => {
   return (
     <>
       <form className={st.form} action="submit" onSubmit={addTodo}>
-        <input className={st.input} type="text" placeholder="Add to do " />
-        <button className={st.submit} >Add!!</button>
+        <input className={st.input} type="text" placeholder="Add to do issue1!!" />
+        <button className={st.submit} >Add</button>
       </form>
     </>
   );

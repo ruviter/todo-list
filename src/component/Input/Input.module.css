@@ -1,0 +1,30 @@
+.form {
+  position:absolute;
+  width: 93.5%;
+  bottom: 10px;
+  height: 25px;
+}
+
+.input {
+  box-sizing: border-box;
+  background-color: rgb(247, 247, 247);
+  appearance: none;
+  margin: 0;
+  border: 0;
+  padding: 7px;
+  border-radius: 5px 0px 0px 5px;
+  height: 100%;
+  width: 80%;
+  max-width: 80%;
+}
+.submit {
+  appearance: none;
+  color: white;
+  background-color: orange;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  border-radius: 0px 5px 5px 0px;
+  width: 20%;
+  height: 100%;
+}

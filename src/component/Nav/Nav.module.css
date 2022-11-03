@@ -1,0 +1,19 @@
+.all, .cp, .ncp{
+    float: right;
+    margin: 0px 6px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: orange;
+    font-weight: 500;
+}
+.darkMode {
+    float: left;
+}
+.radioBT {
+    appearance: none;
+    width: 0;
+    height: 0;
+}
+.all:hover, .cp:hover, .ncp:hover{
+    text-decoration-line: underline;
+}
+

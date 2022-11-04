@@ -8,6 +8,10 @@ const Input = ({addTodo}) => {
         <input className={st.input} type="text" placeholder="develop 간다..." />
         <button className={st.submit} >Add</button>
       </form>
+      <form className={st.form} action="submit" onSubmit={addTodo}>
+        <input className={st.input} type="text" placeholder="develop 간다..." />
+        <button className={st.submit} >Add</button>
+      </form>
     </>
   );
 };
